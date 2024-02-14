@@ -1,7 +1,7 @@
 package by.itstep.stage14.levelC.model;
 
 public class ArrayLogic {
-    public static int calculateValuesGreaterThanArithmeticMean(int[] array, int number) {
+    public static int calculateValuesGreaterThanArithmeticMean(int[] array) {
         int avg = 0;
         int sum = 0;
 
@@ -19,7 +19,7 @@ public class ArrayLogic {
         return sum;
     }
 
-    public static int calculateValuesLessThanGeometricMean(int[] array, int number) {
+    public static int calculateValuesLessThanGeometricMean(int[] array) {
         double avg = 1;
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
